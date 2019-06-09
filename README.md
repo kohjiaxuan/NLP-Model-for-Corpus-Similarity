@@ -1,5 +1,5 @@
 # NLP-Model-for-Corpus-Similarity
-A NLP model I developed to determine the similarity or relation between two documents/articles. Inspired by the cosine similarity (angle of two word vectors) concept. <br><br>
+A NLP model I developed to determine the similarity or relation between two documents/articles. Inspired by the cosine similarity (angle of two word vectors) concept. Please refer to <b>FINAL. NLP Model for determining similarity of Wiki articles.ipynb</b> for the code. <br><br>
 
 ## NLP Model for determining the similarity/relation of Wiki Articles
 ### Inputs two Wikipedia Articles inside and outputs a percentage of similarity
@@ -56,7 +56,6 @@ For instance, the Wikipedia Article of Amsterdam and Van Gogh are fundamentally 
 4. It has a stoplist to remove frequent words, and is customizable according to the needs of the developer.
 5. It is able to detect synonyms and award scores for them
 6. With small modifications, you can input two lists of the most frequent words from two documents to run this model instead of scraping Wikipedia articles. (modify the line self.wiki1slice = list(key) to put your own word list within the percent(self,input1,input2): function)
-7. <b>The difference between NLP model and cosine similarity is that the former is trying to find if two documents/articles are related/similar, while cosine similarity is a 'hard match' of how much the contents of both documents tally.</b>
 
 ### Dependencies and libraries used:
 wikionly.py (adapted from wikiscrape.py with lesser features, please see my other project https://github.com/kohjiaxuan/Wikipedia-Article-Scraper) <br>
