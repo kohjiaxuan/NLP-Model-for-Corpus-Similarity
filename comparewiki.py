@@ -1,26 +1,17 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[36]:
-
-
 import wikionly #script name is wikionly (no summary), class name is wiki
-import wikionly2 #duplicate of wikionly
 import re as re
 import nltk
 nltk.download('wordnet')
 from nltk.corpus import wordnet
 import math
-import time
 
+#Input two Wikipedia articles to compute similarity percentage
 class similar:
     def __init__(self,text1,text2):
-        self.overall = time.time()
-        self.start_time = time.time()
-        
+
         self.wn = nltk.corpus.wordnet #the corpus reader
 
-        #check if both arguments input are string format
+        #Error handling: check if both arguments input are string format
         checkstr = False
         if isinstance(text1, str) == True:
             if isinstance(text2, str) == True:
@@ -32,21 +23,18 @@ class similar:
         else:
             print('Error! The first argument is not a string format!')
         
-        #run internal wikipedia python file for processing for both wiki titles
+        #Run internal wikipedia python file for processing for both wiki titles
         if checkstr == True:
             self.wiki1 = wikionly.wiki(text1)
-            self.wiki2 = wikionly2.wiki(text2)
-            print('Time taken to get Wiki text is ' + str(round(time.time()-self.start_time,2)) + ' seconds.')
+            self.wiki2 = wikionly.wiki(text2)
         
-        #call the function that calculates percentage
-        self.start_time = time.time()
+        #Call the function that calculates percentage
         self.percent(self.wiki1,self.wiki2)
-        print('Time taken to get percentage is ' + str(round(time.time()-self.start_time,2)) + ' seconds.')
         
         #call the function that shows list of words for both Wiki sites, disabled
         #self.words()
         
-    #retrieve top 40 common words from wiki page, slice up and append .n01 for NLTK usage
+    #Retrieve top 40 common words from wiki page, slice up and append .n01 for NLTK usage
     def percent(self,input1,input2):
         self.dotn01 = ('.','n','.','0','1')
         self.wiki1list = []
@@ -93,6 +81,7 @@ class similar:
                 else:
                     self.expvalue = 1.5
                 
+                #Main algorithm for calculating score of words
                 try:
                     if re.findall(r"\d+.n.01", word1) == [] and re.findall(r"\d+.n.01", word2) == []: #check both words not numbers
                         #since words have many meanings, for every pair of words, use top two meanings n.01 and n.02 for comparison
@@ -125,6 +114,7 @@ class similar:
                     else:
                         continue
 
+        #Print the results and implement ceiling if the percent exceeds 100%
         if self.count != 0:
             self.percent = round(self.sum/self.count*100)
             if self.percent > 100:
@@ -134,18 +124,18 @@ class similar:
             print('Probability of topics being related is ' + str(self.percent) + '%')
             print('Count is ' + str(self.count) + ' and sum is ' + str(self.sum))
             print('\n')
-
-            print('Time taken is ' + str(round(time.time()-self.overall,2)) + ' seconds.')
         else:
             print('No relation index can be calculated as words are all foreign')
             
         return self.percent
         
+    #Print out list of common words for both Wiki articles
     def words(self):
         print(self.wiki1list)
         print('\n')
         print(self.wiki2list)
         
+    #Outputs list of results [Article 1, Article 2, Percentage, Yes/No] that can be put into a dataframe
     def ans(self):
         self.listans = [self.text1,self.text2,self.percent]
         if self.percent > 49:
@@ -157,6 +147,3 @@ class similar:
     def help(self):
         print("To start, assign var = comparewiki.similar('arg1','arg2'). To get values in a list for storage, use .ans(). To get the 40 common words for comparison, use .words()")
             
-
-            
-
