@@ -1,0 +1,44 @@
+;This file was created by Graph (http://www.padowan.dk)
+;Do not change this file from other programs.
+[Graph]
+Version = 4.4.2.543
+MinVersion = 2.5
+OS = Windows NT 6.2 
+
+[Axes]
+xMin = -0.06
+xMax = 1.2
+xTickUnit = 0.05
+xGridUnit = 0.05
+yMin = -10
+yMax = 50
+yTickUnit = 5
+yGridUnit = 5
+AxesColor = clBlue
+GridColor = 0x00FF9999
+ShowLegend = 1
+Radian = 1
+
+[Func1]
+FuncType = 0
+y = x*e^(4.5*x) + 10*ln(0.89+x)
+Color = 0x0000CC00
+
+[Func2]
+FuncType = 0
+y = x*e^(2*x) + 10*ln(0.89+x)
+Color = clBlue
+
+[Func3]
+FuncType = 0
+y = x*e^(1.5*x) + 10*ln(0.89+x)
+Color = clRed
+
+[Data]
+TextLabelCount = 0
+FuncCount = 3
+PointSeriesCount = 0
+ShadeCount = 0
+RelationCount = 0
+OleObjectCount = 0
+
