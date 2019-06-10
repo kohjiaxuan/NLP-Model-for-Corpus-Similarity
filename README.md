@@ -64,5 +64,5 @@ nltk, re, math
 ### Libraries used in wikionly/wikiscrape.py:
 requests, bs4, collections, matplotlib, re, os, nltk (optional, only if using stoplist)
 
-### Feedback/Suggestions/Bugs:
+### Feedback/Questions/Bugs:
 Please contact me on my Linkedin https://www.linkedin.com/in/kohjiaxuan/
