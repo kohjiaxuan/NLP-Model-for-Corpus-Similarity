@@ -62,6 +62,10 @@ nltk, re, math
 <br>
 ### Libraries used in wikionly/wikiscrape.py:
 requests, bs4, collections, matplotlib, re, os, nltk (optional, only if using stoplist)
-
+<br>
 ### Feedback/Questions/Bugs:
-Please contact me on my Linkedin https://www.linkedin.com/in/kohjiaxuan/
+Please contact me on my Linkedin https://www.linkedin.com/in/kohjiaxuan/ <br>
+If you happen to have an extensive dataset of pairs of Wikipedia articles that are labeled, please let me know as it would be good to do some extensive testing on the NLP model. Thank you!
+<br>
+### Updates
+13 June 2019 - Based on my understanding of the algorithm, it seems that a factor of 2.5 would be better than 2 for words in Top 11-20. Currently, many pairs of Wikipedia articles that are remotely similar are around 40-49% range (e.g. Physics & Chemistry). If the factor increases, the accuracy of the model would move to about 90%. Hence, changes will be rolled out in due time. 
