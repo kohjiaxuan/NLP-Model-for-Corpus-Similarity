@@ -1,0 +1,121 @@
+Index|Topic 1|Topic 2|Probability|Similar?
+60|Aristotle|Immanuel Kant|100|Yes
+52|Plato|Friedrich Nietzsche|100|Yes
+29|Socrates|Plato|100|Yes
+30|Socrates|Aristotle|100|Yes
+31|Socrates|Avicenna|100|Yes
+34|Socrates|René Descartes|100|Yes
+37|Socrates|Immanuel Kant|100|Yes
+40|Socrates|Friedrich Nietzsche|100|Yes
+41|Socrates|Sigmund Freud|100|Yes
+42|Plato|Aristotle|100|Yes
+43|Plato|Avicenna|100|Yes
+46|Plato|René Descartes|100|Yes
+49|Plato|Immanuel Kant|100|Yes
+53|Plato|Sigmund Freud|100|Yes
+27|Herodotus|Friedrich Nietzsche|100|Yes
+63|Aristotle|Friedrich Nietzsche|100|Yes
+64|Aristotle|Sigmund Freud|100|Yes
+66|Avicenna|Ibn Khaldun|100|Yes
+67|Avicenna|René Descartes|100|Yes
+73|Avicenna|Friedrich Nietzsche|100|Yes
+89|Ibn Khaldun|Karl Marx|100|Yes
+91|Ibn Khaldun|Sigmund Freud|100|Yes
+94|René Descartes|Immanuel Kant|100|Yes
+97|René Descartes|Friedrich Nietzsche|100|Yes
+112|Immanuel Kant|Friedrich Nietzsche|100|Yes
+113|Immanuel Kant|Sigmund Freud|100|Yes
+28|Herodotus|Sigmund Freud|100|Yes
+119|Friedrich Nietzsche|Sigmund Freud|100|Yes
+20|Herodotus|Ibn Khaldun|100|Yes
+13|Confucius|Friedrich Nietzsche|100|Yes
+15|Herodotus|Socrates|100|Yes
+16|Herodotus|Plato|100|Yes
+17|Herodotus|Aristotle|100|Yes
+21|Herodotus|René Descartes|100|Yes
+18|Herodotus|Avicenna|98|Yes
+54|Aristotle|Avicenna|98|Yes
+70|Avicenna|Immanuel Kant|95|Yes
+57|Aristotle|René Descartes|92|Yes
+98|René Descartes|Sigmund Freud|92|Yes
+109|Adam Smith|Sigmund Freud|90|Yes
+118|Karl Marx|Sigmund Freud|89|Yes
+24|Herodotus|Immanuel Kant|88|Yes
+56|Aristotle|Ibn Khaldun|87|Yes
+3|Confucius|Aristotle|86|Yes
+2|Confucius|Plato|86|Yes
+86|Ibn Khaldun|Adam Smith|86|Yes
+45|Plato|Ibn Khaldun|86|Yes
+74|Avicenna|Sigmund Freud|85|Yes
+4|Confucius|Avicenna|83|Yes
+100|John Locke|Immanuel Kant|83|Yes
+1|Confucius|Socrates|83|Yes
+47|Plato|John Locke|83|Yes
+116|Mary Wollstonecraft|Sigmund Freud|80|Yes
+87|Ibn Khaldun|Immanuel Kant|80|Yes
+92|René Descartes|John Locke|80|Yes
+90|Ibn Khaldun|Friedrich Nietzsche|79|Yes
+76|Thomas Aquinas|René Descartes|78|Yes
+117|Karl Marx|Friedrich Nietzsche|77|Yes
+48|Plato|Adam Smith|77|Yes
+7|Confucius|René Descartes|76|Yes
+85|Ibn Khaldun|John Locke|76|Yes
+35|Socrates|John Locke|74|Yes
+10|Confucius|Immanuel Kant|73|Yes
+105|Adam Smith|Immanuel Kant|71|Yes
+99|John Locke|Adam Smith|70|Yes
+104|John Locke|Sigmund Freud|70|Yes
+107|Adam Smith|Karl Marx|70|Yes
+23|Herodotus|Adam Smith|69|Yes
+58|Aristotle|John Locke|68|Yes
+26|Herodotus|Karl Marx|67|Yes
+6|Confucius|Ibn Khaldun|65|Yes
+79|Thomas Aquinas|Immanuel Kant|65|Yes
+65|Avicenna|Thomas Aquinas|64|Yes
+82|Thomas Aquinas|Friedrich Nietzsche|64|Yes
+84|Ibn Khaldun|René Descartes|63|Yes
+8|Confucius|John Locke|63|Yes
+77|Thomas Aquinas|John Locke|61|Yes
+55|Aristotle|Thomas Aquinas|61|Yes
+69|Avicenna|Adam Smith|60|Yes
+5|Confucius|Thomas Aquinas|60|Yes
+93|René Descartes|Adam Smith|60|Yes
+108|Adam Smith|Friedrich Nietzsche|59|Yes
+22|Herodotus|John Locke|59|Yes
+33|Socrates|Ibn Khaldun|59|Yes
+115|Mary Wollstonecraft|Friedrich Nietzsche|59|Yes
+103|John Locke|Friedrich Nietzsche|58|Yes
+59|Aristotle|Adam Smith|58|Yes
+62|Aristotle|Karl Marx|57|Yes
+32|Socrates|Thomas Aquinas|56|Yes
+36|Socrates|Adam Smith|56|Yes
+72|Avicenna|Karl Marx|55|Yes
+12|Confucius|Karl Marx|54|Yes
+14|Confucius|Sigmund Freud|53|Yes
+102|John Locke|Karl Marx|53|Yes
+44|Plato|Thomas Aquinas|52|Yes
+96|René Descartes|Karl Marx|50|Yes
+111|Immanuel Kant|Karl Marx|49|No
+39|Socrates|Karl Marx|47|No
+68|Avicenna|John Locke|47|No
+0|Confucius|Herodotus|45|No
+75|Thomas Aquinas|Ibn Khaldun|45|No
+9|Confucius|Adam Smith|44|No
+88|Ibn Khaldun|Mary Wollstonecraft|42|No
+51|Plato|Karl Marx|41|No
+25|Herodotus|Mary Wollstonecraft|41|No
+38|Socrates|Mary Wollstonecraft|40|No
+114|Mary Wollstonecraft|Karl Marx|38|No
+81|Thomas Aquinas|Karl Marx|36|No
+19|Herodotus|Thomas Aquinas|36|No
+95|René Descartes|Mary Wollstonecraft|34|No
+83|Thomas Aquinas|Sigmund Freud|33|No
+71|Avicenna|Mary Wollstonecraft|33|No
+11|Confucius|Mary Wollstonecraft|31|No
+78|Thomas Aquinas|Adam Smith|31|No
+101|John Locke|Mary Wollstonecraft|27|No
+80|Thomas Aquinas|Mary Wollstonecraft|26|No
+106|Adam Smith|Mary Wollstonecraft|25|No
+50|Plato|Mary Wollstonecraft|25|No
+110|Immanuel Kant|Mary Wollstonecraft|24|No
+61|Aristotle|Mary Wollstonecraft|22|No

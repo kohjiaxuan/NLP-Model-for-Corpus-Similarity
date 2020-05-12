@@ -13,7 +13,9 @@ class similar:
         verbose=1 prints the probability score and mathematical calculation. 
         verbose=2 additionally prints array of words for each article
         verbose=0 disables any logs.
-        To get values in a list for storage, use .ans(). To get the 40 common words for comparison, use .words()"""
+        To get values in a list for storage, use .ans(). 
+        To iterate through arg1 with a list of articles in arg2, use .iterate()
+        To get the 40 common words for comparison, use .words()"""
 
         self.wn = nltk.corpus.wordnet #the corpus reader
         self.verbose = verbose # Verbose/log level of detail
@@ -21,39 +23,53 @@ class similar:
         #Error handling: check if both arguments input are string format
         checkstr = False
         if isinstance(text1, str) == True:
-            if isinstance(text2, str) == True:
+            if isinstance(text2, list) == True:
                 self.text1 = text1
                 self.text2 = text2
                 checkstr = True
             else:
-                print('Error! The second argument is not a string format!')        
+                print('Error! The second argument is not a list format!')
+                return
         else:
             print('Error! The first argument is not a string format!')
+            return
         
         #Run internal wikipedia python file for processing for both wiki titles
         if checkstr == True:
             self.wiki1 = wikionly.wiki(text1)
-            self.wiki2 = wikionly.wiki(text2)
+            # Get list of 40 common words for first article (string)
+            # This means that article won't have to keep calling commonwords function in percent and iterate function
+            self.dotn01 = ('.','n','.','0','1')
+            self.wiki1list = []
+            for key in self.wiki1.commonwords(40):
+                self.wiki1slice = list(key)
+                for letter in self.dotn01:
+                    self.wiki1slice.append(letter)
+                self.wiki1slice = ''.join(self.wiki1slice)
+                self.wiki1list.append(self.wiki1slice)
             
-        #Call the function that calculates percentage
-        self.percent(self.wiki1,self.wiki2,self.verbose)
+    def iterate(self):
+        # List that stores list of results
+        self.matrix = []
+        # Index for getting write article from self.text2 list
+        self.index = 0
         
-        #call the function that shows list of words for both Wiki sites
-        #Only can be used if self.percent has been called and list/arrays for articles are created
-        if self.verbose == 2:
-            print(self.words())
-        
-
+        for article in self.text2:
+            self.wiki2 = wikionly.wiki(article)
+            # Call function that calculates percentage
+            pct = self.percent(self.wiki1,self.wiki2,self.verbose)
+            # Call the function that shows list of words for both Wiki sites
+            # Only can be used if self.percent has been called and list/arrays for articles are created
+            if self.verbose == 2:
+                print(self.words())
+            self.matrix.append(self.ans(self.index))
+            self.index += 1
+            
+        return self.matrix
+                
+    
     #Retrieve top 40 common words from wiki page, slice up and append .n01 for NLTK usage
     def percent(self,input1,input2,verbose):
-        self.dotn01 = ('.','n','.','0','1')
-        self.wiki1list = []
-        for key in self.wiki1.commonwords(40):
-            self.wiki1slice = list(key)
-            for letter in self.dotn01:
-                self.wiki1slice.append(letter)
-            self.wiki1slice = ''.join(self.wiki1slice)
-            self.wiki1list.append(self.wiki1slice)
 
         self.wiki2list = []
         for key in self.wiki2.commonwords(40):
@@ -147,8 +163,8 @@ class similar:
         print(self.wiki2list)
         
     #Outputs list of results [Article 1, Article 2, Percentage, Yes/No] that can be put into a dataframe
-    def ans(self):
-        self.listans = [self.text1,self.text2,self.pct]
+    def ans(self, index=0):
+        self.listans = [self.text1,self.text2[index],self.pct]
         if self.pct > 49:
             self.listans.append('Yes')
         else:
@@ -161,4 +177,4 @@ class similar:
         return self.listans
     
     def help(self):
-        print("To start, assign var = comparewiki.similar('arg1','arg2', verbose=1). arg1 and arg2 are names of the wikipedia articles, while verbose=1 prints the probability score and mathematical calculation. verbose=2 additionally prints array of words for each article, and verbose=0 disables any logs. To get values in a list for storage, use .ans(). To get the 40 common words for comparison, use .words()")
+        print("To start, assign var = comparewiki.similar('arg1','arg2', verbose=1). arg1 and arg2 are names of the wikipedia articles, while verbose=1 prints the probability score and mathematical calculation. verbose=2 additionally prints array of words for each article, and verbose=0 disables any logs. To get values in a list for storage, use .ans(). To iterate through arg1 with a list of articles in arg2, use .iterate(). To get the 40 common words for comparison, use .words()")

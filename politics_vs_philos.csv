@@ -1,0 +1,172 @@
+Index|Topic 1|Topic 2|Probability|Similar?
+170|Friedrich Nietzsche|Sigmund Freud|100|Yes
+149|Socrates|Sigmund Freud|100|Yes
+79|Genghis Khan|Sigmund Freud|100|Yes
+80|Adolf Hitler|Joseph Stalin|100|Yes
+82|Adolf Hitler|Mao Zedong|100|Yes
+94|Joseph Stalin|Mao Zedong|100|Yes
+36|Augustus|Genghis Khan|100|Yes
+35|Augustus|Charlemagne|100|Yes
+117|Mao Zedong|Confucius|100|Yes
+26|Qin Shi Huang|Confucius|100|Yes
+24|Qin Shi Huang|Mao Zedong|100|Yes
+143|Socrates|Plato|100|Yes
+144|Socrates|Aristotle|100|Yes
+146|Socrates|Immanuel Kant|100|Yes
+148|Socrates|Friedrich Nietzsche|100|Yes
+19|Qin Shi Huang|Charlemagne|100|Yes
+141|Confucius|Friedrich Nietzsche|100|Yes
+150|Plato|Aristotle|100|Yes
+157|Aristotle|Immanuel Kant|100|Yes
+167|Immanuel Kant|Sigmund Freud|100|Yes
+166|Immanuel Kant|Friedrich Nietzsche|100|Yes
+159|Aristotle|Friedrich Nietzsche|100|Yes
+50|Augustus|Sigmund Freud|100|Yes
+155|Plato|Sigmund Freud|100|Yes
+152|Plato|Immanuel Kant|100|Yes
+154|Plato|Friedrich Nietzsche|100|Yes
+51|Charlemagne|Genghis Khan|98|Yes
+1|Alexander the Great|Augustus|98|Yes
+160|Aristotle|Sigmund Freud|91|Yes
+164|Adam Smith|Sigmund Freud|90|Yes
+65|Charlemagne|Sigmund Freud|87|Yes
+137|Confucius|Aristotle|86|Yes
+38|Augustus|Joseph Stalin|85|Yes
+136|Confucius|Plato|83|Yes
+34|Qin Shi Huang|Sigmund Freud|82|Yes
+140|Confucius|Karl Marx|82|Yes
+37|Augustus|Adolf Hitler|79|Yes
+135|Confucius|Socrates|77|Yes
+93|Joseph Stalin|Winston Churchill|77|Yes
+18|Qin Shi Huang|Augustus|74|Yes
+151|Plato|Adam Smith|74|Yes
+139|Confucius|Immanuel Kant|73|Yes
+168|Karl Marx|Friedrich Nietzsche|73|Yes
+69|Genghis Khan|Mao Zedong|73|Yes
+162|Adam Smith|Karl Marx|72|Yes
+104|Joseph Stalin|Sigmund Freud|72|Yes
+67|Genghis Khan|Joseph Stalin|72|Yes
+161|Adam Smith|Immanuel Kant|71|Yes
+27|Qin Shi Huang|Socrates|70|Yes
+165|Immanuel Kant|Karl Marx|68|Yes
+92|Adolf Hitler|Sigmund Freud|68|Yes
+0|Alexander the Great|Qin Shi Huang|67|Yes
+20|Qin Shi Huang|Genghis Khan|66|Yes
+147|Socrates|Karl Marx|65|Yes
+66|Genghis Khan|Adolf Hitler|65|Yes
+3|Alexander the Great|Genghis Khan|65|Yes
+33|Qin Shi Huang|Friedrich Nietzsche|63|Yes
+78|Genghis Khan|Friedrich Nietzsche|62|Yes
+40|Augustus|Mao Zedong|62|Yes
+81|Adolf Hitler|Winston Churchill|61|Yes
+169|Karl Marx|Sigmund Freud|61|Yes
+91|Adolf Hitler|Friedrich Nietzsche|60|Yes
+28|Qin Shi Huang|Plato|60|Yes
+49|Augustus|Friedrich Nietzsche|60|Yes
+71|Genghis Khan|Confucius|59|Yes
+163|Adam Smith|Friedrich Nietzsche|59|Yes
+125|Mao Zedong|Sigmund Freud|58|Yes
+153|Plato|Karl Marx|58|Yes
+156|Aristotle|Adam Smith|58|Yes
+130|Nelson Mandela|Adam Smith|57|Yes
+39|Augustus|Winston Churchill|56|Yes
+145|Socrates|Adam Smith|55|Yes
+42|Augustus|Confucius|55|Yes
+95|Joseph Stalin|Nelson Mandela|54|Yes
+158|Aristotle|Karl Marx|54|Yes
+142|Confucius|Sigmund Freud|53|Yes
+2|Alexander the Great|Charlemagne|52|Yes
+17|Alexander the Great|Sigmund Freud|52|Yes
+53|Charlemagne|Joseph Stalin|52|Yes
+52|Charlemagne|Adolf Hitler|49|No
+11|Alexander the Great|Plato|49|No
+68|Genghis Khan|Winston Churchill|49|No
+64|Charlemagne|Friedrich Nietzsche|48|No
+115|Winston Churchill|Sigmund Freud|47|No
+105|Winston Churchill|Mao Zedong|46|No
+31|Qin Shi Huang|Immanuel Kant|46|No
+29|Qin Shi Huang|Aristotle|46|No
+6|Alexander the Great|Winston Churchill|46|No
+54|Charlemagne|Winston Churchill|45|No
+83|Adolf Hitler|Nelson Mandela|45|No
+96|Joseph Stalin|Confucius|45|No
+138|Confucius|Adam Smith|44|No
+89|Adolf Hitler|Immanuel Kant|44|No
+16|Alexander the Great|Friedrich Nietzsche|44|No
+102|Joseph Stalin|Karl Marx|43|No
+134|Nelson Mandela|Sigmund Freud|43|No
+84|Adolf Hitler|Confucius|43|No
+114|Winston Churchill|Friedrich Nietzsche|42|No
+55|Charlemagne|Mao Zedong|41|No
+4|Alexander the Great|Adolf Hitler|40|No
+106|Winston Churchill|Nelson Mandela|40|No
+126|Nelson Mandela|Confucius|38|No
+12|Alexander the Great|Aristotle|38|No
+90|Adolf Hitler|Karl Marx|37|No
+132|Nelson Mandela|Karl Marx|37|No
+5|Alexander the Great|Joseph Stalin|36|No
+10|Alexander the Great|Socrates|36|No
+21|Qin Shi Huang|Adolf Hitler|35|No
+70|Genghis Khan|Nelson Mandela|35|No
+9|Alexander the Great|Confucius|35|No
+77|Genghis Khan|Karl Marx|34|No
+22|Qin Shi Huang|Joseph Stalin|34|No
+41|Augustus|Nelson Mandela|34|No
+25|Qin Shi Huang|Nelson Mandela|34|No
+103|Joseph Stalin|Friedrich Nietzsche|33|No
+116|Mao Zedong|Nelson Mandela|33|No
+123|Mao Zedong|Karl Marx|33|No
+43|Augustus|Socrates|32|No
+48|Augustus|Karl Marx|32|No
+133|Nelson Mandela|Friedrich Nietzsche|32|No
+72|Genghis Khan|Socrates|32|No
+32|Qin Shi Huang|Karl Marx|31|No
+7|Alexander the Great|Mao Zedong|31|No
+57|Charlemagne|Confucius|31|No
+88|Adolf Hitler|Adam Smith|30|No
+73|Genghis Khan|Plato|30|No
+44|Augustus|Plato|28|No
+124|Mao Zedong|Friedrich Nietzsche|28|No
+58|Charlemagne|Socrates|28|No
+56|Charlemagne|Nelson Mandela|27|No
+30|Qin Shi Huang|Adam Smith|27|No
+8|Alexander the Great|Nelson Mandela|25|No
+98|Joseph Stalin|Plato|24|No
+46|Augustus|Adam Smith|24|No
+59|Charlemagne|Plato|24|No
+75|Genghis Khan|Adam Smith|24|No
+23|Qin Shi Huang|Winston Churchill|23|No
+127|Nelson Mandela|Socrates|23|No
+76|Genghis Khan|Immanuel Kant|23|No
+15|Alexander the Great|Karl Marx|22|No
+85|Adolf Hitler|Socrates|22|No
+86|Adolf Hitler|Plato|22|No
+97|Joseph Stalin|Socrates|22|No
+100|Joseph Stalin|Adam Smith|22|No
+131|Nelson Mandela|Immanuel Kant|21|No
+74|Genghis Khan|Aristotle|21|No
+113|Winston Churchill|Karl Marx|20|No
+63|Charlemagne|Karl Marx|20|No
+111|Winston Churchill|Adam Smith|20|No
+128|Nelson Mandela|Plato|20|No
+107|Winston Churchill|Confucius|19|No
+109|Winston Churchill|Plato|19|No
+13|Alexander the Great|Adam Smith|19|No
+101|Joseph Stalin|Immanuel Kant|19|No
+119|Mao Zedong|Plato|19|No
+99|Joseph Stalin|Aristotle|18|No
+61|Charlemagne|Adam Smith|18|No
+47|Augustus|Immanuel Kant|18|No
+121|Mao Zedong|Adam Smith|18|No
+118|Mao Zedong|Socrates|18|No
+129|Nelson Mandela|Aristotle|18|No
+122|Mao Zedong|Immanuel Kant|17|No
+108|Winston Churchill|Socrates|17|No
+14|Alexander the Great|Immanuel Kant|17|No
+110|Winston Churchill|Aristotle|16|No
+112|Winston Churchill|Immanuel Kant|14|No
+87|Adolf Hitler|Aristotle|14|No
+45|Augustus|Aristotle|13|No
+62|Charlemagne|Immanuel Kant|13|No
+60|Charlemagne|Aristotle|13|No
+120|Mao Zedong|Aristotle|12|No

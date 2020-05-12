@@ -1,0 +1,352 @@
+Index|Topic 1|Topic 2|Probability|Similar?
+232|Genghis Khan|Suleiman the Magnificent|100|Yes
+341|Adolf Hitler|Joseph Stalin|100|Yes
+250|Joan of Arc|Napoleon|100|Yes
+234|Genghis Khan|Catherine the Great|100|Yes
+215|Charlemagne|Genghis Khan|100|Yes
+332|Vladimir Lenin|Joseph Stalin|100|Yes
+203|Augustus|Catherine the Great|100|Yes
+201|Augustus|Suleiman the Magnificent|100|Yes
+199|Augustus|Genghis Khan|100|Yes
+198|Augustus|Charlemagne|100|Yes
+76|Ramesses II|Alexander the Great|100|Yes
+80|Ramesses II|Augustus|100|Yes
+81|Ramesses II|Charlemagne|100|Yes
+342|Adolf Hitler|Winston Churchill|100|Yes
+343|Adolf Hitler|Mao Zedong|100|Yes
+345|Joseph Stalin|Winston Churchill|100|Yes
+346|Joseph Stalin|Mao Zedong|100|Yes
+83|Ramesses II|Joan of Arc|100|Yes
+86|Ramesses II|Catherine the Great|100|Yes
+188|Julius Caesar|Napoleon|100|Yes
+6|Sargon of Akkad|Qin Shi Huang|100|Yes
+100|Cyrus the Great|Qin Shi Huang|100|Yes
+180|Julius Caesar|Augustus|100|Yes
+3|Sargon of Akkad|Cyrus the Great|100|Yes
+178|Qin Shi Huang|Mao Zedong|100|Yes
+51|Hatshepsut|Ramesses II|100|Yes
+289|Catherine the Great|Vladimir Lenin|99|Yes
+82|Ramesses II|Genghis Khan|99|Yes
+123|Alexander the Great|Augustus|99|Yes
+31|Hammurabi|Qin Shi Huang|98|Yes
+261|Suleiman the Magnificent|Catherine the Great|96|Yes
+96|Ramesses II|Mao Zedong|95|Yes
+219|Charlemagne|Catherine the Great|94|Yes
+2|Sargon of Akkad|Ramesses II|94|Yes
+101|Cyrus the Great|Julius Caesar|94|Yes
+216|Charlemagne|Joan of Arc|93|Yes
+248|Joan of Arc|Catherine the Great|93|Yes
+344|Adolf Hitler|Nelson Mandela|93|Yes
+347|Joseph Stalin|Nelson Mandela|93|Yes
+292|Catherine the Great|Joseph Stalin|93|Yes
+75|Ramesses II|Cyrus the Great|92|Yes
+335|Vladimir Lenin|Nelson Mandela|91|Yes
+122|Alexander the Great|Julius Caesar|90|Yes
+331|Vladimir Lenin|Adolf Hitler|90|Yes
+247|Joan of Arc|Elizabeth I of England|90|Yes
+217|Charlemagne|Suleiman the Magnificent|89|Yes
+294|Catherine the Great|Mao Zedong|89|Yes
+311|Napoleon|Joseph Stalin|88|Yes
+106|Cyrus the Great|Suleiman the Magnificent|88|Yes
+163|Qin Shi Huang|Charlemagne|88|Yes
+129|Alexander the Great|Catherine the Great|87|Yes
+184|Julius Caesar|Suleiman the Magnificent|86|Yes
+79|Ramesses II|Julius Caesar|86|Yes
+336|Mahatma Gandhi|Adolf Hitler|85|Yes
+84|Ramesses II|Suleiman the Magnificent|85|Yes
+7|Sargon of Akkad|Julius Caesar|84|Yes
+161|Qin Shi Huang|Julius Caesar|84|Yes
+102|Cyrus the Great|Augustus|83|Yes
+334|Vladimir Lenin|Mao Zedong|83|Yes
+162|Qin Shi Huang|Augustus|83|Yes
+337|Mahatma Gandhi|Joseph Stalin|82|Yes
+91|Ramesses II|Vladimir Lenin|82|Yes
+340|Mahatma Gandhi|Nelson Mandela|82|Yes
+94|Ramesses II|Joseph Stalin|82|Yes
+333|Vladimir Lenin|Winston Churchill|80|Yes
+193|Julius Caesar|Adolf Hitler|79|Yes
+194|Julius Caesar|Joseph Stalin|79|Yes
+0|Sargon of Akkad|Hammurabi|79|Yes
+33|Hammurabi|Augustus|78|Yes
+205|Augustus|Napoleon|78|Yes
+330|Vladimir Lenin|Mahatma Gandhi|78|Yes
+121|Alexander the Great|Qin Shi Huang|78|Yes
+310|Napoleon|Adolf Hitler|78|Yes
+127|Alexander the Great|Suleiman the Magnificent|77|Yes
+291|Catherine the Great|Adolf Hitler|77|Yes
+349|Winston Churchill|Nelson Mandela|77|Yes
+95|Ramesses II|Winston Churchill|76|Yes
+348|Winston Churchill|Mao Zedong|76|Yes
+290|Catherine the Great|Mahatma Gandhi|76|Yes
+77|Ramesses II|Ashoka|75|Yes
+221|Charlemagne|Napoleon|75|Yes
+256|Joan of Arc|Joseph Stalin|74|Yes
+244|Genghis Khan|Mao Zedong|74|Yes
+286|Catherine the Great|Napoleon|73|Yes
+32|Hammurabi|Julius Caesar|73|Yes
+88|Ramesses II|Napoleon|73|Yes
+174|Qin Shi Huang|Mahatma Gandhi|72|Yes
+126|Alexander the Great|Joan of Arc|72|Yes
+28|Hammurabi|Cyrus the Great|72|Yes
+181|Julius Caesar|Charlemagne|71|Yes
+98|Cyrus the Great|Alexander the Great|71|Yes
+29|Hammurabi|Alexander the Great|71|Yes
+260|Suleiman the Magnificent|Elizabeth I of England|71|Yes
+263|Suleiman the Magnificent|Napoleon|70|Yes
+104|Cyrus the Great|Genghis Khan|70|Yes
+136|Alexander the Great|Adolf Hitler|70|Yes
+103|Cyrus the Great|Charlemagne|70|Yes
+236|Genghis Khan|Napoleon|69|Yes
+85|Ramesses II|Elizabeth I of England|69|Yes
+186|Julius Caesar|Catherine the Great|68|Yes
+97|Ramesses II|Nelson Mandela|68|Yes
+249|Joan of Arc|George Washington|67|Yes
+93|Ramesses II|Adolf Hitler|67|Yes
+295|Catherine the Great|Nelson Mandela|67|Yes
+218|Charlemagne|Elizabeth I of England|67|Yes
+213|Augustus|Mao Zedong|67|Yes
+257|Joan of Arc|Winston Churchill|67|Yes
+253|Joan of Arc|Vladimir Lenin|66|Yes
+312|Napoleon|Winston Churchill|66|Yes
+182|Julius Caesar|Genghis Khan|66|Yes
+27|Hammurabi|Ramesses II|64|Yes
+134|Alexander the Great|Vladimir Lenin|64|Yes
+255|Joan of Arc|Adolf Hitler|64|Yes
+8|Sargon of Akkad|Augustus|64|Yes
+302|George Washington|Joseph Stalin|64|Yes
+313|Napoleon|Mao Zedong|64|Yes
+125|Alexander the Great|Genghis Khan|63|Yes
+137|Alexander the Great|Joseph Stalin|63|Yes
+293|Catherine the Great|Winston Churchill|62|Yes
+339|Mahatma Gandhi|Mao Zedong|62|Yes
+303|George Washington|Winston Churchill|62|Yes
+164|Qin Shi Huang|Genghis Khan|62|Yes
+135|Alexander the Great|Mahatma Gandhi|61|Yes
+296|George Washington|Napoleon|61|Yes
+350|Mao Zedong|Nelson Mandela|61|Yes
+124|Alexander the Great|Charlemagne|61|Yes
+87|Ramesses II|George Washington|61|Yes
+299|George Washington|Vladimir Lenin|60|Yes
+202|Augustus|Elizabeth I of England|60|Yes
+200|Augustus|Joan of Arc|60|Yes
+63|Hatshepsut|Catherine the Great|60|Yes
+195|Julius Caesar|Winston Churchill|60|Yes
+131|Alexander the Great|Napoleon|60|Yes
+92|Ramesses II|Mahatma Gandhi|60|Yes
+259|Joan of Arc|Nelson Mandela|58|Yes
+273|Elizabeth I of England|Catherine the Great|58|Yes
+78|Ramesses II|Qin Shi Huang|58|Yes
+185|Julius Caesar|Elizabeth I of England|57|Yes
+183|Julius Caesar|Joan of Arc|57|Yes
+196|Julius Caesar|Mao Zedong|57|Yes
+211|Augustus|Joseph Stalin|57|Yes
+326|Abraham Lincoln|Joseph Stalin|57|Yes
+55|Hatshepsut|Qin Shi Huang|56|Yes
+258|Joan of Arc|Mao Zedong|56|Yes
+268|Suleiman the Magnificent|Adolf Hitler|56|Yes
+166|Qin Shi Huang|Suleiman the Magnificent|56|Yes
+139|Alexander the Great|Mao Zedong|56|Yes
+338|Mahatma Gandhi|Winston Churchill|56|Yes
+140|Alexander the Great|Nelson Mandela|56|Yes
+192|Julius Caesar|Mahatma Gandhi|55|Yes
+52|Hatshepsut|Cyrus the Great|55|Yes
+1|Sargon of Akkad|Hatshepsut|55|Yes
+301|George Washington|Adolf Hitler|55|Yes
+267|Suleiman the Magnificent|Mahatma Gandhi|55|Yes
+26|Hammurabi|Hatshepsut|55|Yes
+9|Sargon of Akkad|Charlemagne|55|Yes
+246|Joan of Arc|Suleiman the Magnificent|54|Yes
+189|Julius Caesar|Simón Bolívar|54|Yes
+305|George Washington|Nelson Mandela|54|Yes
+138|Alexander the Great|Winston Churchill|53|Yes
+275|Elizabeth I of England|Napoleon|53|Yes
+229|Charlemagne|Mao Zedong|53|Yes
+209|Augustus|Mahatma Gandhi|53|Yes
+128|Alexander the Great|Elizabeth I of England|52|Yes
+37|Hammurabi|Suleiman the Magnificent|52|Yes
+233|Genghis Khan|Elizabeth I of England|51|Yes
+190|Julius Caesar|Abraham Lincoln|51|Yes
+54|Hatshepsut|Ashoka|51|Yes
+4|Sargon of Akkad|Alexander the Great|51|Yes
+57|Hatshepsut|Augustus|50|Yes
+325|Abraham Lincoln|Adolf Hitler|50|Yes
+300|George Washington|Mahatma Gandhi|50|Yes
+285|Catherine the Great|George Washington|49|No
+282|Elizabeth I of England|Winston Churchill|49|No
+210|Augustus|Adolf Hitler|49|No
+34|Hammurabi|Charlemagne|48|No
+62|Hatshepsut|Elizabeth I of England|48|No
+304|George Washington|Mao Zedong|48|No
+30|Hammurabi|Ashoka|47|No
+231|Genghis Khan|Joan of Arc|47|No
+308|Napoleon|Vladimir Lenin|47|No
+242|Genghis Khan|Joseph Stalin|47|No
+39|Hammurabi|Catherine the Great|47|No
+168|Qin Shi Huang|Catherine the Great|47|No
+141|Ashoka|Qin Shi Huang|47|No
+72|Hatshepsut|Winston Churchill|46|No
+240|Genghis Khan|Mahatma Gandhi|46|No
+254|Joan of Arc|Mahatma Gandhi|46|No
+197|Julius Caesar|Nelson Mandela|45|No
+327|Abraham Lincoln|Winston Churchill|45|No
+241|Genghis Khan|Adolf Hitler|45|No
+71|Hatshepsut|Joseph Stalin|45|No
+298|George Washington|Abraham Lincoln|45|No
+58|Hatshepsut|Charlemagne|45|No
+208|Augustus|Vladimir Lenin|44|No
+157|Ashoka|Joseph Stalin|44|No
+61|Hatshepsut|Suleiman the Magnificent|44|No
+60|Hatshepsut|Joan of Arc|44|No
+146|Ashoka|Joan of Arc|44|No
+272|Suleiman the Magnificent|Nelson Mandela|44|No
+167|Qin Shi Huang|Elizabeth I of England|43|No
+130|Alexander the Great|George Washington|43|No
+309|Napoleon|Mahatma Gandhi|43|No
+179|Qin Shi Huang|Nelson Mandela|42|No
+191|Julius Caesar|Vladimir Lenin|42|No
+314|Napoleon|Nelson Mandela|42|No
+56|Hatshepsut|Julius Caesar|42|No
+226|Charlemagne|Adolf Hitler|41|No
+53|Hatshepsut|Alexander the Great|41|No
+170|Qin Shi Huang|Napoleon|41|No
+158|Ashoka|Winston Churchill|41|No
+144|Ashoka|Charlemagne|41|No
+59|Hatshepsut|Genghis Khan|40|No
+165|Qin Shi Huang|Joan of Arc|40|No
+155|Ashoka|Mahatma Gandhi|40|No
+149|Ashoka|Catherine the Great|40|No
+171|Qin Shi Huang|Simón Bolívar|40|No
+328|Abraham Lincoln|Mao Zedong|39|No
+175|Qin Shi Huang|Adolf Hitler|39|No
+173|Qin Shi Huang|Vladimir Lenin|39|No
+172|Qin Shi Huang|Abraham Lincoln|39|No
+114|Cyrus the Great|Mahatma Gandhi|38|No
+214|Augustus|Nelson Mandela|38|No
+274|Elizabeth I of England|George Washington|38|No
+322|Simón Bolívar|Nelson Mandela|38|No
+35|Hammurabi|Genghis Khan|38|No
+45|Hammurabi|Mahatma Gandhi|38|No
+212|Augustus|Winston Churchill|38|No
+245|Genghis Khan|Nelson Mandela|37|No
+47|Hammurabi|Joseph Stalin|37|No
+46|Hammurabi|Adolf Hitler|37|No
+271|Suleiman the Magnificent|Mao Zedong|37|No
+99|Cyrus the Great|Ashoka|37|No
+68|Hatshepsut|Vladimir Lenin|37|No
+228|Charlemagne|Winston Churchill|37|No
+227|Charlemagne|Joseph Stalin|37|No
+230|Charlemagne|Nelson Mandela|36|No
+323|Abraham Lincoln|Vladimir Lenin|36|No
+143|Ashoka|Augustus|36|No
+176|Qin Shi Huang|Joseph Stalin|36|No
+270|Suleiman the Magnificent|Winston Churchill|36|No
+108|Cyrus the Great|Catherine the Great|35|No
+224|Charlemagne|Vladimir Lenin|35|No
+307|Napoleon|Abraham Lincoln|35|No
+243|Genghis Khan|Winston Churchill|34|No
+269|Suleiman the Magnificent|Joseph Stalin|34|No
+317|Simón Bolívar|Mahatma Gandhi|34|No
+280|Elizabeth I of England|Adolf Hitler|34|No
+315|Simón Bolívar|Abraham Lincoln|34|No
+187|Julius Caesar|George Washington|34|No
+266|Suleiman the Magnificent|Vladimir Lenin|33|No
+206|Augustus|Simón Bolívar|33|No
+73|Hatshepsut|Mao Zedong|33|No
+319|Simón Bolívar|Joseph Stalin|33|No
+38|Hammurabi|Elizabeth I of England|33|No
+225|Charlemagne|Mahatma Gandhi|33|No
+65|Hatshepsut|Napoleon|33|No
+115|Cyrus the Great|Adolf Hitler|33|No
+169|Qin Shi Huang|George Washington|32|No
+147|Ashoka|Suleiman the Magnificent|32|No
+151|Ashoka|Napoleon|32|No
+264|Suleiman the Magnificent|Simón Bolívar|32|No
+324|Abraham Lincoln|Mahatma Gandhi|32|No
+204|Augustus|George Washington|32|No
+329|Abraham Lincoln|Nelson Mandela|32|No
+12|Sargon of Akkad|Suleiman the Magnificent|32|No
+117|Cyrus the Great|Winston Churchill|32|No
+306|Napoleon|Simón Bolívar|31|No
+207|Augustus|Abraham Lincoln|31|No
+287|Catherine the Great|Simón Bolívar|31|No
+44|Hammurabi|Vladimir Lenin|31|No
+316|Simón Bolívar|Vladimir Lenin|31|No
+276|Elizabeth I of England|Simón Bolívar|31|No
+110|Cyrus the Great|Napoleon|31|No
+49|Hammurabi|Mao Zedong|31|No
+251|Joan of Arc|Simón Bolívar|31|No
+177|Qin Shi Huang|Winston Churchill|31|No
+50|Hammurabi|Nelson Mandela|31|No
+318|Simón Bolívar|Adolf Hitler|31|No
+160|Ashoka|Nelson Mandela|30|No
+5|Sargon of Akkad|Ashoka|30|No
+120|Alexander the Great|Ashoka|30|No
+154|Ashoka|Vladimir Lenin|30|No
+66|Hatshepsut|Simón Bolívar|30|No
+113|Cyrus the Great|Vladimir Lenin|30|No
+281|Elizabeth I of England|Joseph Stalin|30|No
+116|Cyrus the Great|Joseph Stalin|30|No
+119|Cyrus the Great|Nelson Mandela|29|No
+278|Elizabeth I of England|Vladimir Lenin|29|No
+265|Suleiman the Magnificent|Abraham Lincoln|29|No
+41|Hammurabi|Napoleon|29|No
+284|Elizabeth I of England|Nelson Mandela|28|No
+222|Charlemagne|Simón Bolívar|28|No
+145|Ashoka|Genghis Khan|28|No
+239|Genghis Khan|Vladimir Lenin|28|No
+297|George Washington|Simón Bolívar|28|No
+142|Ashoka|Julius Caesar|28|No
+107|Cyrus the Great|Elizabeth I of England|27|No
+277|Elizabeth I of England|Abraham Lincoln|27|No
+132|Alexander the Great|Simón Bolívar|26|No
+105|Cyrus the Great|Joan of Arc|26|No
+111|Cyrus the Great|Simón Bolívar|26|No
+237|Genghis Khan|Simón Bolívar|26|No
+74|Hatshepsut|Nelson Mandela|26|No
+133|Alexander the Great|Abraham Lincoln|26|No
+14|Sargon of Akkad|Catherine the Great|25|No
+64|Hatshepsut|George Washington|25|No
+36|Hammurabi|Joan of Arc|25|No
+235|Genghis Khan|George Washington|25|No
+42|Hammurabi|Simón Bolívar|25|No
+43|Hammurabi|Abraham Lincoln|25|No
+252|Joan of Arc|Abraham Lincoln|25|No
+69|Hatshepsut|Mahatma Gandhi|24|No
+70|Hatshepsut|Adolf Hitler|24|No
+288|Catherine the Great|Abraham Lincoln|24|No
+220|Charlemagne|George Washington|24|No
+150|Ashoka|George Washington|23|No
+279|Elizabeth I of England|Mahatma Gandhi|23|No
+118|Cyrus the Great|Mao Zedong|23|No
+148|Ashoka|Elizabeth I of England|23|No
+90|Ramesses II|Abraham Lincoln|23|No
+109|Cyrus the Great|George Washington|23|No
+48|Hammurabi|Winston Churchill|23|No
+89|Ramesses II|Simón Bolívar|23|No
+320|Simón Bolívar|Winston Churchill|23|No
+159|Ashoka|Mao Zedong|23|No
+67|Hatshepsut|Abraham Lincoln|22|No
+156|Ashoka|Adolf Hitler|22|No
+112|Cyrus the Great|Abraham Lincoln|21|No
+40|Hammurabi|George Washington|21|No
+153|Ashoka|Abraham Lincoln|21|No
+262|Suleiman the Magnificent|George Washington|20|No
+223|Charlemagne|Abraham Lincoln|20|No
+283|Elizabeth I of England|Mao Zedong|20|No
+152|Ashoka|Simón Bolívar|20|No
+10|Sargon of Akkad|Genghis Khan|20|No
+238|Genghis Khan|Abraham Lincoln|19|No
+321|Simón Bolívar|Mao Zedong|19|No
+20|Sargon of Akkad|Mahatma Gandhi|17|No
+17|Sargon of Akkad|Simón Bolívar|17|No
+13|Sargon of Akkad|Elizabeth I of England|15|No
+22|Sargon of Akkad|Joseph Stalin|14|No
+23|Sargon of Akkad|Winston Churchill|14|No
+18|Sargon of Akkad|Abraham Lincoln|14|No
+19|Sargon of Akkad|Vladimir Lenin|13|No
+16|Sargon of Akkad|Napoleon|12|No
+11|Sargon of Akkad|Joan of Arc|12|No
+21|Sargon of Akkad|Adolf Hitler|11|No
+24|Sargon of Akkad|Mao Zedong|7|No
+25|Sargon of Akkad|Nelson Mandela|7|No
+15|Sargon of Akkad|George Washington|6|No
