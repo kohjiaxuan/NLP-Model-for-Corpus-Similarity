@@ -23,7 +23,7 @@ Count is 240 and sum is 151.61918693607896
 <b>Importing comparewikilist.py:</b> <br>
 ```
 import numpy as np
-djs = comparewiki.similar('Armin van Buuren', ['Tiesto','Martin Garrix','Swedish House Mafia'], verbose=0)
+djs = comparewikilist.similar('Armin van Buuren', ['Tiesto','Martin Garrix','Swedish House Mafia'], verbose=0)
 np.array(djs.iterate())
 ```
 Output: <br>
