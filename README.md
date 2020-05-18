@@ -1,16 +1,85 @@
 # NLP-Model-for-Corpus-Similarity
 A NLP model I developed to determine the similarity or relation between two documents/articles. Inspired by the cosine similarity (angle of two word vectors) concept. Please refer to <b>FINAL. NLP Model for determining similarity of Wiki articles.ipynb</b> for the code. <br><br>
-
+## Installation
+```
+pip install -r requirements.txt
+```
+dependencies.txt show all the library dependencies and their versions, but using the requirements.txt will do
+<br><br>
 ## NLP Model for determining the similarity/relation of Wiki Articles
 ### Inputs two Wikipedia Articles inside and outputs a percentage of similarity
 ![Final Results](dataframe_related.png) <br><br>
 Postprocessing required to input data into dataframe, this is shown in <b>TEST. NLTK Similarity Function (pandas).ipynb </b>
 
 ### How to use:
-e.g. test = similar('Amsterdam','Van Gogh') or comparewiki.similar('Amsterdam','Van Gogh') using comparewiki.py file <br><br>
-Probability of topics being related is 63% <br>
-Count is 240 and sum is 151.61918693607896 <br><br>
-For extensive Wikipedia articles that I tested and organized in dataframe, please refer to <b>TEST. NLTK Similarity Function (pandas).ipynb </b><br><br>
+<b>Importing comparewiki.py:</b> <br>
+```
+comparewiki.similar('Amsterdam','Van Gogh')
+```
+Output: <br>
+```
+Probability of topics being related is 63%
+Count is 240 and sum is 151.61918693607896
+```
+<b>Importing comparewikilist.py:</b> <br>
+```
+import numpy as np
+djs = comparewiki.similar('Armin van Buuren', ['Tiesto','Martin Garrix','Swedish House Mafia'], verbose=0)
+np.array(djs.iterate())
+```
+Output: <br>
+```
+array([['Armin van Buuren', 'Tiesto', '95', 'Yes'],
+       ['Armin van Buuren', 'Martin Garrix', '96', 'Yes'],
+       ['Armin van Buuren', 'Swedish House Mafia', '81', 'Yes']],
+      dtype='<U19')
+```
+<b>Importing similaritydf.py with slight dataframe manipulation:</b> <br>
+```
+import similaritydf
+from similaritydf import get_df
+topics = ['Kygo','Odesza','Armin van Buuren','Ilan Bluestone','Grum','Cascada','Kobe Bryant','LeBron James','Michael Jordan',
+          'Cristiano Ronaldo','Lionel Messi','Kylian Mbappé','Chemistry','Biology','Physics','Periodic table']
+test_df = get_df(topics)
+
+def see_topic(df, val):
+    return df[(df['Topic 1'] == topics[val]) | (df['Topic 2'] == topics[val])]
+    .sort_values('Probability', ascending=False)
+
+see_topic(test_df, 0)
+```
+Output: <br>
+
+
+| Index | Topic 1 | Topic 2 | Probability | Similar? |
+| :---: | :---: | :---: | :---: | :---: |
+| 3 | Kygo | Grum | 100 | Yes |
+| 4 | Kygo | Cascada | 91 | Yes |
+| 0 | Kygo | Odesza | 66 | Yes |
+| ... | ... | ... | ... | ... |
+| 14 | Kygo | Periodic table | 4 | No |
+| 13 | Kygo | Physics | 3 | No |
+| 10 | Kygo | Kylian Mbappé | 1 | No |
+
+
+<br><br>
+For extensive Wikipedia articles that I tested and organized in dataframe, please refer to <b>TEST. NLTK Similarity Function (pandas).ipynb, SMLR07. Compare one wiki article to a list of articles (comparewikilist.py).ipynb and TEST03. Testing similaritydf to get dataframe.ipynb </b><br><br>
+
+## Python Files
+<b>May 2020 Update</b> - There are 4 Python files that are useful:
+
+| Main Python File | Purpose | Class Name | Function Name | Example | Dependencies |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| comparewiki.py | Compare two Wikipedia Articles and obtain their similarity percentage (0-100%) | similar | ans | TEST. NLTK Similarity Function (pandas) - 10 Jun 2019.ipynb | wikionly, requirements.txt |
+| comparewikilist.py | Compare a Wikipedia Article against a Python list of Wikipedia Articles, returning a list of results that can be converted to numpy arrays or dataframes | similar | iterate | SMLR07. Compare one wiki article to a list of articles (comparewikilist.py).ipynb | wikionly, requirements.txt |
+| similaritydf.py | Uses a Python list of Wikipedia Articles to get all the permutations of Wikipedia Article comparison and their similarities, returns a dataframe | NA | get_df | TEST03. Testing similaritydf to get dataframe.ipynb, SMLR08. DF function for political leaders vs philosophers comparison (similaritydf.py).ipynb | comparewikilist, wikionly, requirements.txt |
+| wikionly.py | Used by the other 3 script files above | wiki | commonwords | NA | requirements.txt |
+
+<br>
+The script wikiscrape.py (12 May 2020 version) is the original Python script used to scrape Wikipedia articles. This has been transformed into a minimal and optimized version called wikionly.py which is used by comparewiki.py, comparewikilist.py and similaritydf.py.
+<br><br>
+For more information, please refer to the repo for the [Wikipedia Article Scraper Package](https://github.com/kohjiaxuan/Wikipedia-Article-Scraper)
+<br><br>
 
 ### Background information for developing NLP Model
 The NLP model is inspired by the Cosine Similarity Formula to determine the similarity of two documents. From two text documents or corpus, create two n dimension vectors that stores n total unique words from both documents, with the frequency of the word in each dimension or vector cell. <br><br>
@@ -58,14 +127,17 @@ For instance, the Wikipedia Article of Amsterdam and Van Gogh have different con
 
 ### Dependencies and libraries used:
 wikionly.py (adapted from wikiscrape.py with lesser features, please see my other project https://github.com/kohjiaxuan/Wikipedia-Article-Scraper) <br>
-nltk, re, math
+Listed in requirements.txt and dependencies.txt
 <br>
 ### Libraries used in wikionly/wikiscrape.py:
 requests, bs4, collections, matplotlib, re, os, nltk (optional, only if using stoplist)
+<br>
+### Libraries used in similaritydf.py:
+numpy, pandas
 <br>
 ### Feedback/Questions/Bugs:
 Please contact me on my Linkedin https://www.linkedin.com/in/kohjiaxuan/ <br>
 If you happen to have an extensive dataset of pairs of Wikipedia articles that are labeled, please let me know as it would be good to do some extensive testing on the NLP model. Thank you!
 <br>
-### Updates
+### Side Note
 13 June 2019 - Based on my understanding of the algorithm, it seems that a factor of 2.5 would be better than 2 for words in Top 11-20. Currently, many pairs of Wikipedia articles that are remotely similar are around 40-49% range (e.g. Physics & Chemistry). If the factor increases, the accuracy of the model would move to about 90%. Hence, changes will be rolled out in due time. 
