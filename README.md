@@ -77,7 +77,9 @@ For extensive Wikipedia articles that I tested and organized in dataframe, pleas
 <br>
 The script wikiscrape.py (12 May 2020 version) is the original Python script used to scrape Wikipedia articles. This has been transformed into a minimal and optimized version called wikionly.py which is used by comparewiki.py, comparewikilist.py and similaritydf.py.
 <br><br>
-For more information, please refer to the repo for the [Wikipedia Article Scraper Package](https://github.com/kohjiaxuan/Wikipedia-Article-Scraper)
+For more information, please refer to the repo for the <b>Wikipedia Article Scraper Package</b>
+(https://github.com/kohjiaxuan/Wikipedia-Article-Scraper)
+
 <br><br>
 
 ### Background information for developing NLP Model
