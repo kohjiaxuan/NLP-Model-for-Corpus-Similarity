@@ -8,8 +8,7 @@ dependencies.txt show all the library dependencies and their versions, but using
 <br><br>
 ## NLP Model for determining the similarity/relation of Wiki Articles
 ### Inputs two Wikipedia Articles inside and outputs a percentage of similarity
-![Final Results](dataframe_related.png) <br><br>
-Postprocessing required to input data into dataframe, this is shown in <b>TEST. NLTK Similarity Function (pandas).ipynb </b>
+![Final Results](dataframe_related.png) <br>
 
 ### How to use:
 <b>Importing comparewiki.py:</b> <br>
