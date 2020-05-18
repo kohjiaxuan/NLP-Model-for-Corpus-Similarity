@@ -35,7 +35,7 @@ For instance, the Wikipedia Article of Amsterdam and Van Gogh have different con
 6. Therefore, the idea was to develop a new NLP model to calculate the similarity of Wikipedia articles, even if they only share a few high impact words and are not deemed similar in the cosine similarity algorithm.
 
 ### How does the NLP Model work?
-1. It uses the Wikipedia web scraper that I built, which is able to get a word counter on the most common words and their frequency. After user types in two Wikipedia articles, the web scraper (wikionly.py) runs for both articles and gets the word counter on the 40 most common words.
+1. It uses the Wikipedia web scraper that I built, which is able to get a word counter on the most common words and their frequency. After user types in two Wikipedia articles, the web scraper (wikionly.py) runs for both articles and gets the word counter on the 40 most common words. Term frequency is often used as a key indicator of the importance of certain words.
 2. In the NLTK package, they have a function word1.path_similarity(word2) that allows you to calculate the similarity between two words, inclding synonyms. We compare the 40 words with each other in a cartesian product manner and get the similarity score between 0 to 1. 
 3. As there are many definitions for a word, the top two common definitions (e.g. dog.n.01 and dog.n.02) are compared with the top two of the other word (e.g. cat.n.01 and cat.n.02) and the maximum similarity score is obtained. A try-exception loop is used to figure out if the word has a valid synset for doing path similarity comparison.
 ### An unique mathematical formula is used: Score = Similarity x e^(Factor x Similarity) + 10 x log(0.89 + Similarity)<br><br>
@@ -51,9 +51,9 @@ For instance, the Wikipedia Article of Amsterdam and Van Gogh have different con
 ### Advantage of NLP Model
 1. It only takes the 40 most common words from both Wikipedia articles for computation, reducing the time taken to get results. With good internet connection and RAM, the web scraping, data cleaning, and NLP model would take less than 10 seconds to determine if two Wikipedia articles are related.
 2. It has a penalty for words that are not similar and a reward (score increase) for similar words (NLTK similarity > 0.11), much like how the cosine similarity model works
-3. It scales up the score for words that are similar and appear frequently in both Wikipedia articles. In many articles, only a few frequent words will hint that the articles are actually related, while the other content are different.
-4. It has a stoplist to remove frequent words, and is customizable according to the needs of the developer.
-5. It is able to detect synonyms and award scores for them
+3. It scales up the score for words that are similar and appear frequently in both Wikipedia articles. In many articles, only a few frequent words will hint that the articles are actually related, while the other content are different. This is in line with NLP techniques of using the term frequency to measure the importance of the term/word.
+4. It has a stoplist to remove frequent words, which will prevent common words in English and Wikipedia from causing false positives of term importance. Also, the stoplist is customizable according to the needs of the developer.
+5. It is able to detect synonyms and award scores for them.
 6. With small modifications, you can input two lists of the most frequent words from two documents to run this model instead of scraping Wikipedia articles. (modify the line self.wiki1slice = list(key) to put your own word list within the percent(self,input1,input2): function)
 
 ### Dependencies and libraries used:
