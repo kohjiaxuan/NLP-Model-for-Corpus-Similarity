@@ -1,5 +1,5 @@
 # NLP-Model-for-Corpus-Similarity
-A NLP model I developed to determine the similarity or relation between two documents/articles. Inspired by the cosine similarity (angle of two word vectors) concept. Please refer to <b>FINAL. NLP Model for determining similarity of Wiki articles.ipynb</b> for the code. <br><br>
+A NLP model I developed to determine the similarity or relation between two documents/articles. Inspired by the cosine similarity (angle of two word vectors) concept.
 ## Installation
 ```
 pip install -r requirements.txt
